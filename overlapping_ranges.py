@@ -1,15 +1,3 @@
-#neither
-#  The area after the last of the previous a or b and before the first of the next a or b
-#  min(a[index_a+1][0], b[index_b+1][0]) - max(a[index_a][1], b[index_b][1])
-#  With a special exception at the beginning and end, before and after a and b exist
-#a only
-#  - An area where the a begins before b begins, to a maximum of the end of a.
-#  - An area after the b ends before the a ends.
-#b only
-#both
-
-
-
 # The first element of a range is inclusive, while the second element of a range is exclusive.  To get the size of the range, simply subtract the first value from the second.
 
 #x = [ [5,7], [9,10], [12,15],  [20,24], [30,40],   [45,47]]
